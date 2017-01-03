@@ -129,6 +129,9 @@ public class DefaultAppSearchAlgorithm {
             case Character.DASH_PUNCTUATION:
                 // Always a break point for a symbol
                 return true;
+            case Character.OTHER_LETTER:
+                // Always a break point for chinese
+                return true;
             default:
                 // Always a break point at first character
                 return  prevType == Character.UNASSIGNED;
