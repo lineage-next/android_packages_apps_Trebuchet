@@ -107,7 +107,7 @@
         -->
         <provider
             android:name="com.android.launcher3.LauncherProvider"
-            android:authorities="com.android.launcher3.settings"
+            android:authorities="org.lineageos.trebuchet.settings"
             android:exported="true"
             android:writePermission="org.lineageos.trebuchet.permission.WRITE_SETTINGS"
             android:readPermission="org.lineageos.trebuchet.permission.READ_SETTINGS" />
